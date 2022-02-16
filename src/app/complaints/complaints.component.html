@@ -1,0 +1,67 @@
+<app-header></app-header>
+<div class="container-fluid">
+  <div class="row">
+      <div class="col-lg-2 left">
+          <a routerLink="/solved">Solved Complaints</a> <br>
+          <a routerLink="/rejected">Rejected Complaints</a>
+      </div>
+      <div class="col-lg-10 right">
+          <!-- Complaint Form -->
+          <div id="wrap" class="input">
+              <header class="input-header">
+                <h1>Anti-Corruption Team</h1>
+              </header>
+              <section class="input-content">
+                <h2>Raise your Complaint</h2>
+                <div class="input-content-wrap">
+                  <dl class="inputbox">
+                    <dt class="inputbox-title">District</dt>
+                    <dd class="inputbox-content">
+                      <input id="input0" type="text" required/>
+                      <label for="input0">Enter District</label>
+                      <span class="underline"></span>
+                    </dd>
+                  </dl>
+                  <dl class="inputbox">
+                    <dt class="inputbox-title">Mandal</dt>
+                    <dd class="inputbox-content">
+                      <input id="input1" type="text" required/>
+                      <label for="input1">Enter Mandal</label>
+                      <span class="underline"></span>
+                    </dd>
+                  </dl>
+                  <dl class="inputbox">
+                    <dt class="inputbox-title">Department</dt>
+                    <dd class="inputbox-content">
+                      <input id="input2" type="text" required/>
+                      <label for="input2">Department Name</label>
+                      <span class="underline"></span>
+                    </dd>
+                  </dl>
+                  <dl class="inputbox">
+                    <dt class="inputbox-title">Employer</dt>
+                    <dd class="inputbox-content">
+                      <input id="input3" type="text" required/>
+                      <label for="input3">Employer Name</label>
+                      <span class="underline"></span>
+                    </dd>
+                  </dl>
+                  <dl class="inputbox">
+                    <dt class="inputbox-title">Type of Corruption</dt>
+                    <dd class="inputbox-content">
+                      <input id="input4" type="text" required/>
+                      <label for="input4">Please Write Type of Corruption</label>
+                      <span class="underline"></span>
+                    </dd>
+                  </dl>
+                  <div class="btns">
+                      <button class="btn btn-confirm">SUBMIT</button>
+                      <button class="btn btn-cancel">Cancel</button>
+                  </div>
+                </div>
+              </section>
+            </div>
+      </div>
+  </div>
+</div>
+<app-footer></app-footer>

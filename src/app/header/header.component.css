@@ -1,0 +1,11 @@
+                    /* Header */
+img
+{margin-left:50px; width:150px; height:150px; border-radius: 100px;}
+h1{text-align:center;color: white;display:inline;margin-left:100px;font-size:50px;}
+.badge{float:right;margin-top: 107px;}
+                    /* Nav bar */
+.nav{font-weight: bold;margin-left: 50px;}
+.nav-link:hover{ background-color: darkgreen; color: white;}
+.p{margin-left: 550px;}
+                    /* Marquee */
+marquee{background-color: green;color: white;}
